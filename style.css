@@ -1,0 +1,39 @@
+.container {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .item {
+    background-color: #05453a;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: move;
+    color: #ccc;
+  }
+
+  .item.dragging {
+    opacity: 0.5;
+  }
+
+  #successMessage {
+    display: none;
+    margin-top: 10px;
+    color: green;
+  }
+
+  #resetButton{
+    cursor: pointer;
+    background-color: #05453a;
+    color: #ccc;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+
+  #resetButton:hover{
+    opacity: 0.5;
+  }
